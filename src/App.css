@@ -233,6 +233,7 @@ body {
 .footer__copyright {
   width: 80%;
   float: right;
+  text-align: center;
 }
 .footer__logo-image {
   animation: rotation 10s infinite linear;

@@ -1,0 +1,21 @@
+@mixin heading-primary-text($fontSize, $fontWeight, $letterSpacing) {
+  display: block;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  letter-spacing: $letterSpacing;
+}
+
+@mixin clearFix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

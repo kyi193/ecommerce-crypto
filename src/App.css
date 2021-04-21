@@ -34,6 +34,14 @@
     transform: translate(0);
   }
 }
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-359deg);
+  }
+}
 .u-center-text {
   text-align: center !important;
 }
@@ -225,6 +233,9 @@ body {
 .footer__copyright {
   width: 80%;
   float: right;
+}
+.footer__logo-image {
+  animation: rotation 10s infinite linear;
 }
 
 .section-about {

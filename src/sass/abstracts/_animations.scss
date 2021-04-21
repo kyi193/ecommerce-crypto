@@ -41,3 +41,12 @@
     transform: translate(0);
   }
 }
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-359deg);
+  }
+}

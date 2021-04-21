@@ -54,4 +54,8 @@
     width: 80%;
     float: right;
   }
+
+  &__logo-image {
+    animation: rotation 10s infinite linear;
+  }
 }

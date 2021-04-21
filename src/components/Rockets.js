@@ -4,7 +4,7 @@ import item2 from "../img/item2.jpg";
 import item3 from "../img/item3.jpg";
 import qrcode from "../img/qrcode.png";
 
-const Rockets = () => {
+const Rockets = ({ invCount, setInvCount }) => {
   return (
     <section class="section-tours" id="section-tours">
       <div class="u-center-text u-margin-bottom-medium u-margin-top-small">
@@ -38,7 +38,11 @@ const Rockets = () => {
                   <img class="u-margin-top-small" src={qrcode} />
                   <p>Scan QR Code to purchase with Bitcoin</p>
                 </div>
-                <a href="#popup" class="btn btn--white">
+                <a
+                  href="#popup"
+                  class="btn btn--white"
+                  onClick={() => setInvCount(invCount + 1)}
+                >
                   Add to Cart
                 </a>
               </div>
@@ -72,7 +76,11 @@ const Rockets = () => {
                   <img class="u-margin-top-small" src={qrcode} />
                   <p>Scan QR Code to purchase with Bitcoin</p>
                 </div>
-                <a href="#popup" class="btn btn--white">
+                <a
+                  href="#popup"
+                  class="btn btn--white"
+                  onClick={() => setInvCount(invCount + 1)}
+                >
                   Add to Cart
                 </a>
               </div>
@@ -106,7 +114,11 @@ const Rockets = () => {
                   <img class="u-margin-top-small" src={qrcode} />
                   <p>Scan QR Code to purchase with Bitcoin</p>
                 </div>
-                <a href="#popup" class="btn btn--white">
+                <a
+                  href="#popup"
+                  class="btn btn--white"
+                  onClick={() => setInvCount(invCount + 1)}
+                >
                   Add to Cart
                 </a>
               </div>

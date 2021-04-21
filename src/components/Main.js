@@ -2,11 +2,11 @@ import React from "react";
 import About from "./About";
 import Rockets from "./Rockets";
 
-const Main = () => {
+const Main = ({ invCount, setInvCount }) => {
   return (
     <main>
       <About />
-      <Rockets />
+      <Rockets invCount={invCount} setInvCount={setInvCount} />
     </main>
   );
 };

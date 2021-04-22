@@ -129,7 +129,7 @@ body {
 
 .header {
   height: 80vh;
-  background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.9), #222222), url("../../assets/hero.png");
+  background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.9), #222222);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);

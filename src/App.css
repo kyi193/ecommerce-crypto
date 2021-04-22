@@ -34,6 +34,16 @@
     transform: translate(0);
   }
 }
+@keyframes moveInBottomPlus {
+  0% {
+    opacity: 0;
+    transform: translateY(8rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 @keyframes rotation {
   from {
     transform: rotateY(0deg);
@@ -138,11 +148,12 @@ body {
 }
 .header__logo-box {
   position: absolute;
-  top: 4rem;
-  left: 4rem;
+  top: 35rem;
+  left: 49rem;
 }
 .header__logo {
-  height: 3.5rem;
+  height: 150.5rem;
+  animation: moveInBottomPlus ease-out 2s;
 }
 .header__text-box {
   position: absolute;

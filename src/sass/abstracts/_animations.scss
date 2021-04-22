@@ -42,6 +42,18 @@
   }
 }
 
+@keyframes moveInBottomPlus {
+  0% {
+    opacity: 0;
+    transform: translateY(8rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
 @keyframes rotation {
   from {
     transform: rotateY(0deg);
